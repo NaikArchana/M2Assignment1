@@ -1,0 +1,5 @@
+nt(input())
+RollNoE = set(map(int,input().split()))
+nF = int(input())
+RollNoF = set(map(int,input().split()))
+print(len(RollNoE.intersection(RollNoF)))
